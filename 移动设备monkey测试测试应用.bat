@@ -1,17 +1,18 @@
 @echo off & setlocal enabledelayedexpansion
-title ¶ÔÕıÔÚÔËĞĞµÄÓ¦ÓÃ½øĞĞmonkey²âÊÔ
+title å¯¹æ­£åœ¨è¿è¡Œçš„åº”ç”¨è¿›è¡Œmonkeyæµ‹è¯•
 :: Author donnymoving@gmail.com
-echo ×¢Òâ£ºÒ»´ÎÖ»ÄÜmonkey²âÊÔÒ»¸öÓ¦ÓÃ
+echo æ³¨æ„ï¼šä¸€æ¬¡åªèƒ½monkeyæµ‹è¯•ä¸€ä¸ªåº”ç”¨
 echo=
 for /f "delims=" %%t in ('adb shell dumpsys window ^| findstr mCurrentFocus') do (set value=%%t)
 for /f "tokens=1* delims=/" %%a in ("%value:~34%") do (
   if "%%a"=="NotificationShade}" (
-      echo ÇëÁÁÆÁ½âËøºóÔÙ½øĞĞmonkey²âÊÔ
+      echo è¯·äº®å±è§£é”åå†è¿›è¡Œmonkeyæµ‹è¯•
       echo=
       GOTO :END
   ) else (
+        :: com.bbk.studyos.launcheræ­¤åº”ç”¨åŒ…åæ˜¯ç³»ç»Ÿæ¡Œé¢åº”ç”¨åŒ…åï¼Œæ­¤å¤„ä»¥æ­¥æ­¥é«˜ä¸ºä¾‹ï¼Œå®é™…æƒ…å†µè¯·åšä¿®æ”¹ï¼Œä¸»è¦åŒæ¥åˆ¤æ–­æ˜¯å¦æ‰“å¼€è¢«æµ‹åº”ç”¨
         if "%%a"=="com.bbk.studyos.launcher" (
-          echo Çë´ò¿ªÓ¦ÓÃºóÔÙ½øĞĞmonkey²âÊÔ
+          echo è¯·æ‰“å¼€åº”ç”¨åå†è¿›è¡Œmonkeyæµ‹è¯•
       	  echo=
       	  GOTO :END
   	) else (
@@ -20,19 +21,19 @@ for /f "tokens=1* delims=/" %%a in ("%value:~34%") do (
   )
 )
 echo=
-echo µ±Ç°Ó¦ÓÃµÄ°üÃûÊÇ:%package%
+echo å½“å‰åº”ç”¨çš„åŒ…åæ˜¯:%package%
 echo=
-echo ÊäÈëmonkey²âÊÔµÄÓ¦ÓÃÃû³Æ:
+echo è¾“å…¥monkeyæµ‹è¯•çš„åº”ç”¨åç§°:
 set /p app=
-echo ÊäÈëµÄÓ¦ÓÃÃû³ÆÊÇ:%app%
+echo è¾“å…¥çš„åº”ç”¨åç§°æ˜¯:%app%
 echo=
-echo monkeyÃüÁîÊÇ£º
+echo monkeyå‘½ä»¤æ˜¯ï¼š
 echo adb shell monkey -p %package% --throttle 300 --pct-touch 80 -v -v -v 3500 ^> E:\test\monkeytest.txt
 echo=
-echo ¿ªÊ¼Ö´ĞĞmonkey²âÊÔ
+echo å¼€å§‹æ‰§è¡Œmonkeyæµ‹è¯•
 adb shell monkey -p %package% --throttle 300 --pct-touch 80 -v -v -v 3500 > E:\test\monkeytest.txt
 echo=
-echo monkeyÖ´ĞĞ½áÊø£¬Çë²é¿´monkeytest.txt
+echo monkeyæ‰§è¡Œç»“æŸï¼Œè¯·æŸ¥çœ‹monkeytest.txt
 pause
 
 :END
