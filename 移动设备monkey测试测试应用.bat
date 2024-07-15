@@ -10,7 +10,7 @@ for /f "tokens=1* delims=/" %%a in ("%value:~34%") do (
       echo=
       GOTO :END
   ) else (
-        :: com.bbk.studyos.launcher此应用包名是系统桌面应用包名，此处以步步高为例，实际情况请做修改，主要同来判断是否打开被测应用
+        :: com.bbk.studyos.launcher此应用包名是系统桌面应用包名，此处以步步高为例，实际情况请做修改，主要用来判断是否打开被测应用
         if "%%a"=="com.bbk.studyos.launcher" (
           echo 请打开应用后再进行monkey测试
       	  echo=
