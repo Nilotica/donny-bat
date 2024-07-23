@@ -1,5 +1,5 @@
 @echo off
-title 遍历当前文件夹下文件
+title 閬嶅巻褰撳墠鏂囦欢澶逛笅鏂囦欢
 :: Author donnymoving@gmail.com
 setlocal
 for %%i in (* *) do echo %%i
