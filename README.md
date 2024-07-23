@@ -30,3 +30,8 @@
   #### 批量卸载app(APK)，卸载时默认会保留QQ、微信，只卸载第三方应用，不会卸载系统应用。
 - [移动设备批量安装APK.bat](https://github.com/mdd1991/mdd-bat/blob/master/%E7%A7%BB%E5%8A%A8%E8%AE%BE%E5%A4%87%E6%89%B9%E9%87%8F%E5%AE%89%E8%A3%85APK.bat)
   #### 批量安装app(APK)，将此脚本与apk文件放置同一个文件夹内运行即可安装。
+- [遍历当前文件夹下文件](https://github.com/Nilotica/donny-bat/blob/master/%E9%81%8D%E5%8E%86%E5%BD%93%E5%89%8D%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E6%96%87%E4%BB%B6.bat)
+  #### 遍历当前文件夹下文件，将此脚本放置在一个文件夹内运行。
+- [遍历文本内容](https://github.com/Nilotica/donny-bat/blob/master/%E9%81%8D%E5%8E%86%E6%96%87%E6%9C%AC%E5%86%85%E5%AE%B9.bat)
+  #### 遍历打印一个文本文件内容，示例为run.log文件。
+
