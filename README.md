@@ -40,3 +40,44 @@
   #### 添加当前路径到用户环境变量(Path)，注意修改为自己计算机中的域名和计算机名。
 - [添加当前路径到系统环境变量.bat](https://github.com/Nilotica/donny-bat/blob/master/%E6%B7%BB%E5%8A%A0%E5%BD%93%E5%89%8D%E8%B7%AF%E5%BE%84%E5%88%B0%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.bat)
   #### 添加当前路径到系统环境变量(Path)。
+
+## 常用CMD命令
+- ipconfig------查看本地ip
+- winver------检查Windows版本
+- wmimgmt.msc----打开windows管理体系结构（WMI）
+- wscript--------windows脚本宿主设置
+- write----------写字板
+- wiaacmgr-------扫描仪和照相机向导
+- Msconfig.exe---系统配置实用程序
+- mstsc----------远程桌面连接
+- magnify--------放大镜实用程序
+- mmc------------打开控制台
+- mobsync--------同步命令
+- dxdiag---------检查DirectX信息
+- devmgmt.msc--- 设备管理器
+- diskmgmt.msc---磁盘管理实用程序
+- dcomcnfg-------打开系统组件服务
+- notepad--------打开记事本
+- nslookup-------网络管理的工具向导
+- narrator-------屏幕“讲述人”
+- netstat -an----(TC)命令检查接口
+- sigverif-------文件签名验证程序
+- shrpubw--------创建共享文件夹
+- secpol.msc-----本地安全策略
+- services.msc---本地服务设置
+- sfc.exe--------系统文件检查器
+- sfc /scannow---windows文件保护
+- tsshutdn-------60秒倒计时关机命令
+- taskmgr--------任务管理器
+- eventvwr-------事件查看器
+- eudcedit-------造字程序
+- explorer-------打开资源管理器
+- perfmon.msc----计算机性能监测程序
+- regedit.exe----注册表
+- rsop.msc-------组策略结果集
+- regedt32-------注册表编辑器
+- cmd.exe--------CMD命令提示符
+- chkdsk.exe-----Chkdsk磁盘检查
+- certmgr.msc----证书管理实用程序
+- calc-----------启动计算器
+- charmap--------启动字符映射表
