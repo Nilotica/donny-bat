@@ -34,4 +34,9 @@
   #### 遍历当前文件夹下文件，将此脚本放置在一个文件夹内运行。
 - [遍历文本内容](https://github.com/Nilotica/donny-bat/blob/master/%E9%81%8D%E5%8E%86%E6%96%87%E6%9C%AC%E5%86%85%E5%AE%B9.bat)
   #### 遍历打印一个文本文件内容，示例为run.log文件。
-
+- [实时监控当前文件夹的大小，超过设定阈值时删除部分文件夹](https://github.com/Nilotica/donny-bat/blob/master/%E5%AE%9E%E6%97%B6%E7%9B%91%E6%8E%A7%E5%BD%93%E5%89%8D%E6%96%87%E4%BB%B6%E5%A4%B9%E7%9A%84%E5%A4%A7%E5%B0%8F%EF%BC%8C%E8%B6%85%E8%BF%87%E8%AE%BE%E5%AE%9A%E9%98%88%E5%80%BC%E6%97%B6%E5%88%A0%E9%99%A4%E9%83%A8%E5%88%86%E6%96%87%E4%BB%B6%E5%A4%B9.bat)
+  #### 实时监控当前文件夹的大小，超过设定阈值时删除部分文件夹。
+- [添加当前路径到用户环境变量](https://github.com/Nilotica/donny-bat/blob/master/%E6%B7%BB%E5%8A%A0%E5%BD%93%E5%89%8D%E8%B7%AF%E5%BE%84%E5%88%B0%E7%94%A8%E6%88%B7%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.bat)
+  #### 添加当前路径到用户环境变量(Path)，注意修改为自己计算机中的域名和计算机名。
+- [添加当前路径到系统环境变量](https://github.com/Nilotica/donny-bat/blob/master/%E6%B7%BB%E5%8A%A0%E5%BD%93%E5%89%8D%E8%B7%AF%E5%BE%84%E5%88%B0%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.bat)
+  #### 添加当前路径到系统环境变量(Path)。
