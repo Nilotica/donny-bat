@@ -2,9 +2,9 @@
 
 ## 目录
 
-- [删除所有文件1.bat](https://github.com/mdd1991/mdd-bat/blob/master/%E5%88%A0%E9%99%A4%E6%89%80%E6%9C%89%E6%96%87%E4%BB%B6.bat)
+- [删除所有文件1.bat](https://github.com/Nilotica/donny-bat/blob/master/%E5%88%A0%E9%99%A4%E6%89%80%E6%9C%89%E6%96%87%E4%BB%B61.bat)
   #### 批量删除目标文件夹下所有子文件夹及文件，此种方式会先删除子文件夹和文件，谨慎操作。
-- [删除所有文件2.bat](https://github.com/mdd1991/mdd-bat/blob/master/%E5%88%A0%E9%99%A4%E6%89%80%E6%9C%89%E6%96%87%E4%BB%B62.bat)
+- [删除所有文件2.bat](https://github.com/Nilotica/donny-bat/blob/master/%E5%88%A0%E9%99%A4%E6%89%80%E6%9C%89%E6%96%87%E4%BB%B62.bat)
   #### 批量删除目标文件夹下所有子文件夹及文件，此种方式直接删除目标文件夹，谨慎操作。
 - [启动事件查看器.bat](https://github.com/mdd1991/mdd-bat/blob/master/%E5%90%AF%E5%8A%A8%E4%BA%8B%E4%BB%B6%E6%9F%A5%E7%9C%8B%E5%99%A8.bat)
   #### 事件查看器是Windows系统中用于检查和分析电脑问题的工具，直接打开事件查看器。
