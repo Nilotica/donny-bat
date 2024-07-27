@@ -69,7 +69,6 @@
 - services.msc---本地服务设置
 - sfc.exe--------系统文件检查器
 - sfc /scannow---windows文件保护
-- tsshutdn-------60秒倒计时关机命令
 - taskmgr--------任务管理器
 - eventvwr-------事件查看器
 - eudcedit-------造字程序
