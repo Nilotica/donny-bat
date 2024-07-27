@@ -1,5 +1,6 @@
 @echo off
 title 禁用Windows服务
+:: Author donnymoving@gmail.com
 :: 禁用Windows服务
 echo 设置要禁用的服务名称:
 set /p service_name=
