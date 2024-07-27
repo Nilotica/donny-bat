@@ -14,8 +14,6 @@
   #### 直接打开Windows服务管理工具。
 - [启动注册表编辑器.bat](https://github.com/mdd1991/mdd-bat/blob/master/%E5%90%AF%E5%8A%A8%E6%B3%A8%E5%86%8C%E8%A1%A8%E7%BC%96%E8%BE%91%E5%99%A8.bat)
   #### 直接打开Windows注册表编辑器。
-- [启动记事本.bat](https://github.com/mdd1991/mdd-bat/blob/master/%E5%90%AF%E5%8A%A8%E8%AE%B0%E4%BA%8B%E6%9C%AC.bat)
-  #### 直接打开Windows记事本。
 - [启动资源管理器.bat](https://github.com/mdd1991/mdd-bat/blob/master/%E5%90%AF%E5%8A%A8%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8.bat)
   #### 直接打开Windows资源管理器。
 - [批量下载文件.bat](https://github.com/mdd1991/mdd-bat/blob/master/%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6.bat)
