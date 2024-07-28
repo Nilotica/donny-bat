@@ -42,6 +42,8 @@
   #### 添加当前路径到用户环境变量(Path)，注意修改为自己计算机中的域名和计算机名。
 - [添加当前路径到系统环境变量.bat](https://github.com/Nilotica/donny-bat/blob/master/%E6%B7%BB%E5%8A%A0%E5%BD%93%E5%89%8D%E8%B7%AF%E5%BE%84%E5%88%B0%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.bat)
   #### 添加当前路径到系统环境变量(Path)。
+- [修复移动硬盘出错.bat](https://github.com/Nilotica/donny-bat/blob/master/%E4%BF%AE%E5%A4%8D%E7%A7%BB%E5%8A%A8%E7%A1%AC%E7%9B%98%E5%87%BA%E9%94%99.bat)
+  #### 修复移动硬盘出错。
 
 ## 常用CMD命令
 - ipconfig------查看本地ip
