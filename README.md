@@ -21,7 +21,7 @@
 - [启动资源管理器.bat](https://github.com/mdd1991/mdd-bat/blob/master/%E5%90%AF%E5%8A%A8%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8.bat)
   #### 直接打开Windows资源管理器。
 - [批量下载文件.bat](https://github.com/mdd1991/mdd-bat/blob/master/%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6.bat)
-  #### 根据 download.txt 中的下载链接批量下载文件，下载之前确保电脑中已配置wget环境变量。
+  #### 根据 download.txt 中的下载链接批量下载文件，下载之前确保电脑中已配置 wget 环境变量，仓库中已提供 download.txt 样例和 wget 安装包。
 - [批量去掉文件名中的字符串.bat](https://github.com/mdd1991/mdd-bat/blob/master/%E6%89%B9%E9%87%8F%E5%8E%BB%E6%8E%89%E6%96%87%E4%BB%B6%E5%90%8D%E4%B8%AD%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2.bat)
   #### 批量修改/去掉文件(夹)名中的字符串，可批量修改文件或文件夹名称。
 - [禁用Windows服务.bat](https://github.com/mdd1991/mdd-bat/blob/master/%E7%A6%81%E7%94%A8Windows%E6%9C%8D%E5%8A%A1.bat)
